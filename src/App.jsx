@@ -5,6 +5,7 @@ import Pricing from './Components/Pricing'
 import Stats from './Components/Stats'
 import Steps from './Components/Steps'
 import CalltoAction from './Components/CalltoAction'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <Steps></Steps>
     <Pricing></Pricing>
     <CalltoAction></CalltoAction>
+    <Footer></Footer>
     </>
   )
 }
