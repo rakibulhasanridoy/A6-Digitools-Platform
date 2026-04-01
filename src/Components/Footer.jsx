@@ -3,7 +3,7 @@ const Footer = () => {
       <footer className="bg-gray-950 border-t border-gray-800 pt-16 pb-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-            {/* Brand */}
+            {/* Brand ekhane */}
             <div className="md:col-span-4">
               <div className="flex items-center gap-2 mb-4">
                 <img src="/assets/package.png" alt="logo" className="w-8 h-8" />
@@ -16,7 +16,7 @@ const Footer = () => {
                 Work smarter with our suite of powerful tools.
               </p>
             </div>
-            {/* Product */}
+            {/* Product ekhane */}
             <div className="md:col-span-2">
               <h3 className="text-violet-400 font-semibold mb-5 text-sm uppercase tracking-wider">
                 Product
@@ -33,7 +33,7 @@ const Footer = () => {
                 )}
               </ul>
             </div>
-            {/* Company */}
+            
            <div className="md:col-span-2">
               <h3 className="text-violet-400 font-semibold mb-5 text-sm uppercase tracking-wider">
                 Company
@@ -49,7 +49,7 @@ const Footer = () => {
               </ul>
             </div>
   
-            {/* Resources */}
+            {/*  */}
            <div className="md:col-span-2">
               <h3 className="text-violet-400 font-semibold mb-5 text-sm uppercase tracking-wider">
                 Resources
@@ -67,7 +67,7 @@ const Footer = () => {
               </ul>
             </div>
   
-            {/* Social */}
+            {/* link */}
            <div className="md:col-span-2">
               <h3 className="text-violet-400 font-semibold mb-5 text-sm uppercase tracking-wider">
                 Social Links
@@ -96,7 +96,7 @@ const Footer = () => {
                 Terms of Service
              </a>
               <a href="#" className="hover:text-violet-400 transition">
-              Made with ❤️ for Teams
+              Made with for Teams
               </a>
             </div>
           </div>

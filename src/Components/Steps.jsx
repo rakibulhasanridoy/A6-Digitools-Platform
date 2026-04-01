@@ -36,7 +36,6 @@ const Steps = () => {
           </div>
   
          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
-            {/* Connector line */}
             <div className="hidden md:block absolute top-12 left-1/3 right-1/3 h-0.5 bg-violet-100 z-0"></div>
   
             {steps.map((step, index) => (

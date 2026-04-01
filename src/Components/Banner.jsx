@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section className="bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Left Content */}
+        {/* Left  */}
       <div className="space-y-6">
           <div className="inline-flex items-center gap-2 bg-violet-50 border border-violet-200 text-violet-600 text-sm font-medium px-4 py-1.5 rounded-full">
              <img src={Group} alt="" /> New: AI-Powered Tools Available
@@ -36,7 +36,7 @@ const Banner = () => {
           <span>✓ Cancel Anytime</span>
           </div>
         </div>
-        {/* Right Image */}
+        {/*  Image */}
         <div className="relative flex justify-center lg:justify-end">
         <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-violet-100 to-purple-50 rounded-3xl scale-105 blur-xl opacity-60"></div>

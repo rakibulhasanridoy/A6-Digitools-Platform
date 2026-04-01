@@ -1,16 +1,49 @@
-# React + Vite
+#  DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A streamlined digital marketplace for AI models and software subscriptions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Description
 
-## React Compiler
+*DigiTools Platform* is a modern, React-powered marketplace designed to simplify the discovery and purchase of professional digital tools. From AI-driven content generation to automated workflows, this platform provides a smooth and unified experience for digital entrepreneurs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It focuses on *speed, usability, and clean UI*, making it easy for users to browse, select, and manage digital products efficiently.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Technology
+
+- ⚛️ React.js   
+- 🎨 Tailwind CSS + DaisyUI  
+- 🧠 JavaScript (ES6+)  
+- 🔔 React-Toastify  
+- 📦 JSON  
+
+---
+
+
+
+## ✨ Features
+
+### 🛒 Smart Selection Control
+- Automatically disables the *"Add to Cart"* button once a product is added  
+- Prevents duplicate selections  
+- Ensures a smooth and user-friendly shopping experience  
+
+### 🔔 Interactive Notifications
+- Integrated with *React-Toastify*  
+- Provides real-time feedback for:
+  - Product added  
+  - Product removed  
+  - Checkout actions  
+
+### 🔢 Dynamic Cart Counter
+- Live cart item counter in the navbar  
+- Updates instantly as users add or remove items
+
+
+---
+### END 
+---

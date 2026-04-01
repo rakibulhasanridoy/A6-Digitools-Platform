@@ -48,7 +48,6 @@ const Pricing = () => {
         ],
       },
     ];
-  
     return (
       <section className="bg-white py-20">
        <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -71,7 +70,7 @@ const Pricing = () => {
                     : "bg-gray-50 border border-gray-100 text-gray-900"
                 }`}
               >
-                {plan.badge && (
+               {plan.badge && (
                   <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-orange-400 text-white text-xs font-bold px-4 py-1 rounded-full whitespace-nowrap">
                     {plan.badge}
                   </span>
@@ -81,7 +80,7 @@ const Pricing = () => {
                 <h3
                     className={`text-xl font-bold ${
                       plan.highlight ? "text-white" : "text-gray-900"
-                    }`}
+                   }`}
                   >
                     {plan.name}
                   </h3>
@@ -91,7 +90,7 @@ const Pricing = () => {
                     }`}
                   >
                     {plan.tagline}
-                  </p>
+                 </p>
                 </div>
   
                 <div className="flex items-baseline gap-1">
@@ -100,7 +99,7 @@ const Pricing = () => {
                     className={`text-sm ${
                      plan.highlight ? "text-violet-200" : "text-gray-400"
                     }`}
-                  >
+                >
                     /{plan.period}
                   </span>
                 </div>
@@ -112,7 +111,7 @@ const Pricing = () => {
                         className={
                           plan.highlight ? "text-violet-200" : "text-violet-500"
                       }
-                      >
+                     >
                         ✓
                       </span>
                       <span
@@ -142,6 +141,5 @@ const Pricing = () => {
       </section>
     );
   };
-  
   export default Pricing;
   
