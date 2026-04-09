@@ -1,49 +1,107 @@
-#  DigiTools Platform
+# 🌐 Live Experience
+### 🔗 Access the Hub:
+👉 https://digitools-platform-by-rakib.netlify.app/
 
-A streamlined digital marketplace for AI models and software subscriptions.
-
----
-
-## 📌 Description
-
-*DigiTools Platform* is a modern, React-powered marketplace designed to simplify the discovery and purchase of professional digital tools. From AI-driven content generation to automated workflows, this platform provides a smooth and unified experience for digital entrepreneurs.
-
-It focuses on *speed, usability, and clean UI*, making it easy for users to browse, select, and manage digital products efficiently.
+Step into the future of digital commerce and explore premium assets.
 
 ---
 
+# 🛸 DigiTools Platform
+An elite digital ecosystem for AI neural models and software subscriptions.
 
-## 🛠️ Technology
+---
 
-- ⚛️ React.js   
-- 🎨 Tailwind CSS + DaisyUI  
-- 🧠 JavaScript (ES6+)  
-- 🔔 React-Toastify  
-- 📦 JSON  
+# 📌 Discribtion
+DigiTools is a high-performance, React-powered marketplace engineered to streamline the acquisition of professional-grade digital assets. From advanced AI content engines to automated business workflows, the platform provides a frictionless experience for modern creators and tech entrepreneurs.
+
+The architecture prioritizes lightning-fast speed, fluid usability, and a sophisticated UI, ensuring users can manage digital products with maximum efficiency.
+
+---
+
+# 🛠️ The Stack
+- ⚛️ React.js (Core Architecture)
+
+- 🎨 Tailwind CSS + DaisyUI (Modern Styling)
+
+- 🧠 JavaScript ES6+ (Logic & Interactivity)
+
+- 🔔 React-Toastify (System Alerts)
+
+- 📦 JSON (Data Management)
+
+---
+
+# ✨ Core Features
+### 🛒 Intelligent Order Control
+- Automatically locks the "Add to Cart" state once a selection is made
+
+- Smart-logic to prevent redundant item processing
+
+- Delivers a highly responsive and intuitive shopping flow
+
+### 🔔 Immersive Notifications
+- Deep integration with React-Toastify - Real-time visual feedback for:
+
+- Inventory additions
+
+- Item removals
+
+- Secure checkout sequences
+
+### 🔢 Real-Time Asset Tracking
+- Dynamic live counter embedded in the navigation bar
+
+- Seamlessly synchronizes as the user updates their selection
+
+---
+
+# 📸 Visual Preview
+<img src="https://i.ibb.co.com/hJ6KfTYb/screencapture-digitools-platform-by-rakib-netlify-app-2026-04-09-22-49-34.png">
+<br />
+
+
 
 ---
 
 
+# 🚀 Quick Setup
+Deploy the DigiTools environment on your local system:
 
-## ✨ Features
+### 📌 Prerequisites
+Ensure you have these tools ready:
 
-### 🛒 Smart Selection Control
-- Automatically disables the *"Add to Cart"* button once a product is added  
-- Prevents duplicate selections  
-- Ensures a smooth and user-friendly shopping experience  
+- 🟢 Node.js (v14+)
 
-### 🔔 Interactive Notifications
-- Integrated with *React-Toastify*  
-- Provides real-time feedback for:
-  - Product added  
-  - Product removed  
-  - Checkout actions  
+- 📦 npm (Node Package Manager)
 
-### 🔢 Dynamic Cart Counter
-- Live cart item counter in the navbar  
-- Updates instantly as users add or remove items
+- 💻 VS Code (Recommended Editor)
 
 
 ---
-### END 
----
+
+
+# 📥 1. Clone the Source
+
+```js
+git clone https://github.com/rakibulhasanridoy/A6-Digitools-Platform.git
+cd /A6-Digitools-Platform
+```
+
+# 📦 2. Install Dependencies
+
+```js
+npm install
+```
+(Or download and extract the ZIP archive.)
+
+# ▶️ 3. Boot the System
+```js
+npm run dev
+```
+
+# 🌐 4. Launch in Browser
+- Once the server is live, navigate to:
+
+- http://localhost:5173 or
+
+- http://localhost:3000
